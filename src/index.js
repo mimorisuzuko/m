@@ -6,7 +6,7 @@ const yo = () => {
 	const v = areas[0].value;
 
 	areas[1].value = m.trim(v);
-	areas[2].value = JSON.stringify(m.parse(v), null, '\t');
+	areas[2].value = JSON.stringify(m.parse(m.trim(v)), null, '\t');
 
 	requestAnimationFrame(yo);
 };

@@ -1,5 +1,3 @@
-/// <reference path="typings/index.d.ts" />
-
 const _ = require('lodash');
 
 const separator = new RegExp(
@@ -45,7 +43,8 @@ const separator = new RegExp(
 			'>_<',
 			'♪───Ｏ（≧∇≦）Ｏ────♪',
 			'( *｀ω´)',
-			'\\(｀ω´ )/'
+			'\\(｀ω´ )/',
+			'(*ﾟ▽ﾟ*)'
 		], (a) => a.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'))), '|')
 );
 
